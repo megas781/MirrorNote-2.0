@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6033AE1E7DAAAA00BDC984 /* MoveNoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6033AD1E7DAAAA00BDC984 /* MoveNoteTableViewController.swift */; };
+		EDAC87ED1E7FEDC3005AAC77 /* ExtensionForString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87EC1E7FEDC3005AAC77 /* ExtensionForString.swift */; };
+		EDEE02171E637F66002542D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE020C1E637F66002542D2 /* AppDelegate.swift */; };
+		EDEE021A1E637F66002542D2 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE020F1E637F66002542D2 /* EditingViewController.swift */; };
+		EDEE021B1E637F66002542D2 /* FoldersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02101E637F66002542D2 /* FoldersTableViewCell.swift */; };
+		EDEE021C1E637F66002542D2 /* FoldersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02111E637F66002542D2 /* FoldersTableViewController.swift */; };
+		EDEE021D1E637F66002542D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEE02121E637F66002542D2 /* Info.plist */; };
+		EDEE021E1E637F66002542D2 /* MirrorNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02131E637F66002542D2 /* MirrorNote.xcdatamodeld */; };
+		EDEE021F1E637F66002542D2 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02151E637F66002542D2 /* NotesTableViewCell.swift */; };
+		EDEE02201E637F66002542D2 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02161E637F66002542D2 /* NotesTableViewController.swift */; };
+		EDEE022F1E63821F002542D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE022B1E63821F002542D2 /* LaunchScreen.storyboard */; };
+		EDEE02301E63821F002542D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE022D1E63821F002542D2 /* Main.storyboard */; };
+		EDEE02321E63823C002542D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE02311E63823C002542D2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED6033AD1E7DAAAA00BDC984 /* MoveNoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveNoteTableViewController.swift; sourceTree = "<group>"; };
+		EDAC87EC1E7FEDC3005AAC77 /* ExtensionForString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionForString.swift; path = MirrorNote/ExtensionForString.swift; sourceTree = "<group>"; };
+		EDEE01F41E637F19002542D2 /* MirrorNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrorNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE020C1E637F66002542D2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MirrorNote/AppDelegate.swift; sourceTree = "<group>"; };
+		EDEE020F1E637F66002542D2 /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditingViewController.swift; path = MirrorNote/EditingViewController.swift; sourceTree = "<group>"; };
+		EDEE02101E637F66002542D2 /* FoldersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoldersTableViewCell.swift; path = MirrorNote/FoldersTableViewCell.swift; sourceTree = "<group>"; };
+		EDEE02111E637F66002542D2 /* FoldersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoldersTableViewController.swift; path = MirrorNote/FoldersTableViewController.swift; sourceTree = "<group>"; };
+		EDEE02121E637F66002542D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MirrorNote/Info.plist; sourceTree = "<group>"; };
+		EDEE02141E637F66002542D2 /* MirrorNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MirrorNote.xcdatamodel; sourceTree = "<group>"; };
+		EDEE02151E637F66002542D2 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotesTableViewCell.swift; path = MirrorNote/NotesTableViewCell.swift; sourceTree = "<group>"; };
+		EDEE02161E637F66002542D2 /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotesTableViewController.swift; path = MirrorNote/NotesTableViewController.swift; sourceTree = "<group>"; };
+		EDEE022C1E63821F002542D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MirrorNote/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDEE022E1E63821F002542D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MirrorNote/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDEE02311E63823C002542D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MirrorNote/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEE01F11E637F19002542D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDEE01EB1E637F19002542D2 = {
+			isa = PBXGroup;
+			children = (
+				EDEE020C1E637F66002542D2 /* AppDelegate.swift */,
+				EDEE02331E6382AB002542D2 /* Folders Scene */,
+				EDEE02341E6382BB002542D2 /* Notes Scene */,
+				EDEE020F1E637F66002542D2 /* EditingViewController.swift */,
+				ED6033AD1E7DAAAA00BDC984 /* MoveNoteTableViewController.swift */,
+				EDAC87EC1E7FEDC3005AAC77 /* ExtensionForString.swift */,
+				EDEE022D1E63821F002542D2 /* Main.storyboard */,
+				EDEE022B1E63821F002542D2 /* LaunchScreen.storyboard */,
+				EDEE02311E63823C002542D2 /* Assets.xcassets */,
+				EDEE02131E637F66002542D2 /* MirrorNote.xcdatamodeld */,
+				EDEE02121E637F66002542D2 /* Info.plist */,
+				EDEE01F51E637F19002542D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEE01F51E637F19002542D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE01F41E637F19002542D2 /* MirrorNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEE02331E6382AB002542D2 /* Folders Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE02111E637F66002542D2 /* FoldersTableViewController.swift */,
+				EDEE02101E637F66002542D2 /* FoldersTableViewCell.swift */,
+			);
+			name = "Folders Scene";
+			sourceTree = "<group>";
+		};
+		EDEE02341E6382BB002542D2 /* Notes Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE02161E637F66002542D2 /* NotesTableViewController.swift */,
+				EDEE02151E637F66002542D2 /* NotesTableViewCell.swift */,
+			);
+			name = "Notes Scene";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEE01F31E637F19002542D2 /* MirrorNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE02091E637F19002542D2 /* Build configuration list for PBXNativeTarget "MirrorNote" */;
+			buildPhases = (
+				EDEE01F01E637F19002542D2 /* Sources */,
+				EDEE01F11E637F19002542D2 /* Frameworks */,
+				EDEE01F21E637F19002542D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirrorNote;
+			productName = MirrorNote;
+			productReference = EDEE01F41E637F19002542D2 /* MirrorNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEE01EC1E637F19002542D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gleb Kalachev";
+				TargetAttributes = {
+					EDEE01F31E637F19002542D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6WBATSU6B5;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDEE01EF1E637F19002542D2 /* Build configuration list for PBXProject "MirrorNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEE01EB1E637F19002542D2;
+			productRefGroup = EDEE01F51E637F19002542D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEE01F31E637F19002542D2 /* MirrorNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEE01F21E637F19002542D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE02301E63821F002542D2 /* Main.storyboard in Resources */,
+				EDEE021D1E637F66002542D2 /* Info.plist in Resources */,
+				EDEE02321E63823C002542D2 /* Assets.xcassets in Resources */,
+				EDEE022F1E63821F002542D2 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEE01F01E637F19002542D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE02171E637F66002542D2 /* AppDelegate.swift in Sources */,
+				EDAC87ED1E7FEDC3005AAC77 /* ExtensionForString.swift in Sources */,
+				EDEE021A1E637F66002542D2 /* EditingViewController.swift in Sources */,
+				EDEE021E1E637F66002542D2 /* MirrorNote.xcdatamodeld in Sources */,
+				EDEE021C1E637F66002542D2 /* FoldersTableViewController.swift in Sources */,
+				EDEE021B1E637F66002542D2 /* FoldersTableViewCell.swift in Sources */,
+				EDEE021F1E637F66002542D2 /* NotesTableViewCell.swift in Sources */,
+				ED6033AE1E7DAAAA00BDC984 /* MoveNoteTableViewController.swift in Sources */,
+				EDEE02201E637F66002542D2 /* NotesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDEE022B1E63821F002542D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE022C1E63821F002542D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDEE022D1E63821F002542D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE022E1E63821F002542D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEE02071E637F19002542D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDEE02081E637F19002542D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEE020A1E637F19002542D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6WBATSU6B5;
+				INFOPLIST_FILE = MirrorNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GGhost.MirrorNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDEE020B1E637F19002542D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6WBATSU6B5;
+				INFOPLIST_FILE = MirrorNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GGhost.MirrorNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEE01EF1E637F19002542D2 /* Build configuration list for PBXProject "MirrorNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE02071E637F19002542D2 /* Debug */,
+				EDEE02081E637F19002542D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEE02091E637F19002542D2 /* Build configuration list for PBXNativeTarget "MirrorNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE020A1E637F19002542D2 /* Debug */,
+				EDEE020B1E637F19002542D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDEE02131E637F66002542D2 /* MirrorNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDEE02141E637F66002542D2 /* MirrorNote.xcdatamodel */,
+			);
+			currentVersion = EDEE02141E637F66002542D2 /* MirrorNote.xcdatamodel */;
+			name = MirrorNote.xcdatamodeld;
+			path = MirrorNote/MirrorNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDEE01EC1E637F19002542D2 /* Project object */;
+}

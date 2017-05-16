@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2wh-a5-lIK"/>
+                        <viewControllerLayoutGuide type="bottom" id="nTD-QF-PdI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nNj-Eu-4Vh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="8Pg-u5-9Gb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="MirrorNote" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="C25-Uw-PDA">
+                                <rect key="frame" x="0.0" y="30" width="375" height="637"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.7074409196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="80"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Pg-u5-9Gb" firstAttribute="top" secondItem="nNj-Eu-4Vh" secondAttribute="top" id="6aB-iX-wIr"/>
+                            <constraint firstItem="nTD-QF-PdI" firstAttribute="top" secondItem="C25-Uw-PDA" secondAttribute="bottom" id="Miz-gD-8Sj"/>
+                            <constraint firstItem="8Pg-u5-9Gb" firstAttribute="leading" secondItem="nNj-Eu-4Vh" secondAttribute="leading" id="cCL-bw-Hae"/>
+                            <constraint firstItem="nTD-QF-PdI" firstAttribute="top" secondItem="8Pg-u5-9Gb" secondAttribute="bottom" id="hNX-vY-0bf"/>
+                            <constraint firstAttribute="trailing" secondItem="8Pg-u5-9Gb" secondAttribute="trailing" id="hz6-FH-5Y4"/>
+                            <constraint firstItem="C25-Uw-PDA" firstAttribute="leading" secondItem="nNj-Eu-4Vh" secondAttribute="leading" id="oWd-sX-B9G"/>
+                            <constraint firstAttribute="trailing" secondItem="C25-Uw-PDA" secondAttribute="trailing" id="ufT-mp-uAJ"/>
+                            <constraint firstItem="C25-Uw-PDA" firstAttribute="top" secondItem="2wh-a5-lIK" secondAttribute="bottom" constant="10" id="vr1-9w-NXg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreen" width="1080" height="1920"/>
+    </resources>
+</document>
